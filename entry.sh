@@ -70,8 +70,7 @@ bash "${STEAMAPPDIR}/srcds_run" -game "${STEAMAPP}" -console -autoupdate \
 			+net_public_adr "${SRCDS_NET_PUBLIC_ADDRESS}" \
 			-ip "${SRCDS_IP}" \
 			+host_workshop_collection "${SRCDS_HOST_WORKSHOP_COLLECTION}" \
-			+workshop_start_map "${SRCDS_WORKSHOP_START_MAP}" \
-			+host_workshop_map ${SRCDS_HOST_WORKSHOP_MAP} \
+			+host_workshop_map "${SRCDS_HOST_WORKSHOP_MAP}" \
 			-authkey "${SRCDS_WORKSHOP_AUTHKEY}" \
 			"${ow_args}" \
 			"${ADDITIONAL_ARGS}"
